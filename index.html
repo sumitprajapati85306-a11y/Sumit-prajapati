@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sumit Prajapati | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5fff5;
+            color: #222;
+        }
+
+        header {
+            background: #176b35;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h2 {
+            font-size: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #dfffe3, #ffffff);
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            color: #176b35;
+            margin-bottom: 15px;
+        }
+
+        .hero h3 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #176b35;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #176b35;
+            margin-bottom: 35px;
+            font-size: 35px;
+        }
+
+        .about {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 250px;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px #ccc;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            color: #176b35;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery div {
+            width: 250px;
+            height: 180px;
+            background: #dfffe3;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #176b35;
+            font-weight: bold;
+        }
+
+        .contact {
+            text-align: center;
+            background: #e8f8eb;
+        }
+
+        footer {
+            background: #176b35;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Sumit Prajapati</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#agriculture">Agriculture</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<section class="hero" id="home">
+    <div>
+        <h1>Namaste, I'm Sumit Prajapati 👋</h1>
+
+        <h3>Class 11 Student | Agriculture</h3>
+
+        <p>
+            मैं कक्षा 11 का छात्र हूँ और मैंने Agriculture विषय लिया है।
+            मुझे Drawing और Singing में रुचि है।
+            मैं नई चीजें सीखना और अपनी Creative Skills को बेहतर बनाना पसंद करता हूँ।
+        </p>
+
+        <a href="#about" class="btn">Know More</a>
+    </div>
+</section>
+
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="about">
+        <p>
+            मेरा नाम <b>Sumit Prajapati</b> है।
+            मैं कक्षा 11 का छात्र हूँ।
+            मैंने Agriculture विषय चुना है।
+            मुझे पढ़ाई के साथ-साथ Drawing और Singing करना पसंद है।
+            मेरा लक्ष्य नई चीजें सीखना और अपने ज्ञान एवं कौशल को लगातार विकसित करना है।
+        </p>
+    </div>
+</section>
+
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🌱 Agriculture</h3>
+            <p>कृषि और खेती से संबंधित विषयों में रुचि।</p>
+        </div>
+
+        <div class="card">
+            <h3>🎨 Drawing</h3>
+            <p>मुझे Drawing और Creative Art करना पसंद है।</p>
+        </div>
+
+        <div class="card">
+            <h3>🎤 Singing</h3>
+            <p>मुझे Singing करना और संगीत सुनना पसंद है।</p>
+        </div>
+
+        <div class="card">
+            <h3>💡 Creativity</h3>
+            <p>नई और Creative चीजें सीखने में रुचि।</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="agriculture">
+    <h2>My Agriculture Journey</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🌾 Crops</h3>
+            <p>विभिन्न फसलों और उनकी खेती के बारे में सीखना।</p>
+        </div>
+
+        <div class="card">
+            <h3>🌱 Soil</h3>
+            <p>मृदा और मृदा संरक्षण के बारे में जानकारी।</p>
+        </div>
+
+        <div class="card">
+            <h3>💧 Irrigation</h3>
+            <p>सिंचाई और जल संरक्षण के तरीकों को समझना।</p>
+        </div>
+
+        <div class="card">
+            <h3>🚜 Modern Farming</h3>
+            <p>आधुनिक कृषि तकनीकों के बारे में सीखना।</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="gallery">
+    <h2>My Gallery</h2>
+
+    <div class="gallery">
+        <div>🎨 My Drawing</div>
+        <div>🖼️ My Artwork</div>
+        <div>🎤 Singing</div>
+        <div>🌱 Agriculture Project</div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+
+    <p>अगर आप मुझसे संपर्क करना चाहते हैं तो नीचे दिए गए माध्यमों का उपयोग कर सकते हैं।</p>
+
+    <br>
+
+    <p>📧 Email: Your Email Here</p>
+    <p>▶️ YouTube: Your YouTube Link</p>
+    <p>📷 Instagram: Your Instagram Link</p>
+</section>
+
+
+<footer>
+    <p>© 2026 Sumit Prajapati | Student Portfolio</p>
+</footer>
+
+
+<script>
+    console.log("Welcome to Sumit Prajapati's Portfolio!");
+</script>
+
+</body>
+</html>
